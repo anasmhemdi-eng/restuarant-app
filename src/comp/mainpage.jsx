@@ -22,7 +22,7 @@ export default function MainPage() {
       <section className='hero-sec'>
         <div className='hero-info'>
           <h1>delicious food delevered to your home</h1>
-          <p>Hot, golden perfection—straight from our kitchen to your couch</p>
+          <p>Hot and golden perfection—straight from our kitchen to your couch</p>
           <button className='hero-btn'>
             EXPLORE MENU <span>›</span>
           </button>
