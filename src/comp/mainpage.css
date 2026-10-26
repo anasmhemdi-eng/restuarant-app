@@ -55,3 +55,69 @@
 .order-btn:hover {
   background-color: #e10011;
 }
+
+.hero-sec{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 60px 40px;
+  min-height: calc(100vh - 75px);
+  background-color: rgb(255, 255, 255);
+}
+
+.hero-info{
+  max-width: 550px;
+}
+
+.hero-info h1{
+  font-size: 48px;
+  font-weight: 800;
+  color: #1a1a1a;
+  margin-bottom: 20px;
+  line-height: 1.2;
+}
+
+.hero-info p{
+  font-size: 20px;
+  font-weight: 300;
+  color: #333;
+  line-height: 1.8;
+  margin-bottom: 30px;
+}
+
+.hero-btn{
+  background-color: #000000;
+  color: #ffffff;
+  border: none;
+  padding: 12px 16px;
+  border-radius: 30px;
+  font-size: 14px;
+  font-weight: bold;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  transition: background-color 0.2s ease;
+}
+
+.hero-btn:hover{
+  background-color: #e10011;
+}
+
+.hero-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image-placeholder {
+  font-size: 100px;
+  background: #ffeaa7;
+  border-radius: 50%;
+  width: 350px;
+  height: 350px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05)
+}
